@@ -1,0 +1,15 @@
+.flex-parent {
+    display: flex;
+    flex-basis: 100%;
+  }
+  
+  .flex-item {
+    padding: .5em;
+    background: #efefef;
+    border: 3px solid #333;
+    flex:1;
+    
+  }
+  .flex-item.big{
+    flex:2;
+  }

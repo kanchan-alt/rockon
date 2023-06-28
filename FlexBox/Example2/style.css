@@ -1,0 +1,13 @@
+.flex-parent {
+    display: flex;
+  }
+  
+  .flex-item {
+    padding: .5em;
+    background: #efefef;
+    border: 3px solid #333;
+  }
+  
+  .flex-item.no-shrink {
+    flex-shrink: 0;
+  }
