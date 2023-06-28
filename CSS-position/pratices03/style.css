@@ -1,0 +1,37 @@
+
+ body{
+    height: 100%;
+ }
+ html{
+    height: 300%;
+ }
+ .container{
+    margin: 0 12rem;
+  
+ }
+  .list-header{
+    background: black;
+    color: green;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+  } 
+
+  .list-content{
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+
+
+
+ /* .list-header {
+  position: relative;
+} */
+
+/* @supports (position: sticky) {
+  .list-header {
+    position: sticky;
+    top: 0;
+  }
+} */
