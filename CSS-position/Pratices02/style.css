@@ -1,0 +1,29 @@
+.main-nav{
+    width: 100%;
+    display: flex;
+    gap: 19rem ;
+    justify-content: space-around;
+    background: blueviolet;
+    padding: 1em;
+    color: white;
+    /* position: fixed;
+    top: 0; */
+
+    position: sticky;
+    top: 0;
+    
+
+}
+
+p{
+    padding: 1em;
+    background: rgb(156, 156, 97);
+    margin: 1em;
+}
+
+.header-large> img{
+   height: 30rem;
+   width: 60rem;
+   margin-top: 2.6rem;
+}
+
