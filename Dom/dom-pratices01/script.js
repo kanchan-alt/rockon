@@ -3,7 +3,7 @@ const  body = document.body
 // body.append("Hello World", "Bye")
 
 
-const div = document.createElement('div')
+// const div = document.createElement('div')
 
 // div.innerText ="Hello World"
 // div.textContent ="Hello World"
@@ -12,10 +12,24 @@ const div = document.createElement('div')
             
                  //   or
 
-const strong = document.createElement('strong')
-strong.innerText = "Hello world 2"
-div.append(strong)
+// const strong = document.createElement('strong')
+// strong.innerText = "Hello world 2"
+// div.append(strong)
 
 
 
-body.append(div)
+// body.append(div)
+
+
+// secand Example removing thing
+
+
+const div = document.createElement('div')
+const spanHi = document.querySelector('#hi')
+const spanBye = document.querySelector('#bye')
+
+spanBye.remove()
+div.append(spanBye)
+
+// div.removeChild(spanHi)
+
