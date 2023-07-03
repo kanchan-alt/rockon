@@ -24,12 +24,27 @@ const  body = document.body
 // secand Example removing thing
 
 
+// const div = document.createElement('div')
+// const spanHi = document.querySelector('#hi')
+// const spanBye = document.querySelector('#bye')
+
+// spanBye.remove()
+// div.append(spanBye)
+
+// div.removeChild(spanHi)
+
+
+
+// 3 Example adding and removing attribute
+
+
 const div = document.createElement('div')
 const spanHi = document.querySelector('#hi')
 const spanBye = document.querySelector('#bye')
 
-spanBye.remove()
-div.append(spanBye)
+console.log(spanHi.getAttribute('title'));
 
-// div.removeChild(spanHi)
+console.log(spanBye.setAttribute("id", "jsjjj"));
+// console.log(spanBye.id ="gfhfjj");
 
+// spanHi.removeAttribute("id"/"title")
