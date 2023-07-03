@@ -64,3 +64,8 @@ spanDataAttirbute.dataset.newName ="hi"
 spanHi.classList.add("new-class")
 spanHi.classList.remove("new-class")
 spanHi.classList.toggle("hi3", false)
+
+
+// any css properties
+
+spanHi.style.backgroundColor = "red"
