@@ -41,6 +41,7 @@ const  body = document.body
 const div = document.createElement('div')
 const spanHi = document.querySelector('#hi')
 const spanBye = document.querySelector('#bye')
+const spanDataAttirbute = document.querySelector('#dataAttribute')
 
 console.log(spanHi.getAttribute('title'));
 
@@ -48,3 +49,11 @@ console.log(spanBye.setAttribute("id", "jsjjj"));
 // console.log(spanBye.id ="gfhfjj");
 
 // spanHi.removeAttribute("id"/"title")
+
+
+// manipluating with data attibute
+
+console.log(spanDataAttirbute.dataset);
+console.log(spanDataAttirbute.dataset.test);
+
+spanDataAttirbute.dataset.newName ="hi"
