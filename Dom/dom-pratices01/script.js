@@ -57,3 +57,10 @@ console.log(spanDataAttirbute.dataset);
 console.log(spanDataAttirbute.dataset.test);
 
 spanDataAttirbute.dataset.newName ="hi"
+
+
+//className
+
+spanHi.classList.add("new-class")
+spanHi.classList.remove("new-class")
+spanHi.classList.toggle("hi3", false)
